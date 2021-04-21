@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+h2 
+{
+    font-family: Ranchers;
+}
+
+p
+{
+     font-family: Rubik, sans-serif;
+    
+}
+
+html 
+{
+    font-size: 10px;
+}
+
+aside li
+{
+    
+padding: 1px;
+
+}
+
+aside a
+{
+    color: darksalmon;
+}
+
+section a
+{
+   color: darksalmon;
+    
+}
+
+
+
+
+
+
+
+
+nav li
+{
+    border: 1px solid darksalmon;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+    list-style: none
+    
+}
+
+nav a
+{
+    text-decoration: none;
+    color: darksalmon;  
+    
+}
+
+h1
+{
+    font-family: Ranchers;
+    text-align: center;
+    letter-spacing: 2px;
+}
+h2
+{
+    letter-spacing: 2px; 
+}
